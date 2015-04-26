@@ -1,0 +1,11 @@
+name             'redis-resource'
+maintainer       'Eric Saxby'
+maintainer_email 'sax@livinginthepast.org'
+license          'MIT'
+description      'Installs Redis services'
+long_description 'Installs Redis services'
+version          '0.1.0'
+
+depends 'build-essential'
+depends 'paths'
+depends 'smf'
